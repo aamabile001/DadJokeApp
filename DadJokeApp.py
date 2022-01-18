@@ -1,6 +1,3 @@
-import os
-os.getcwd()
-
 import tkinter as tk
 from tkinter import ttk
 import requests
@@ -16,19 +13,8 @@ headers = {
 window = tk.Tk()
 window.title("Anthony's 'Dadabase' of Random Dad Jokes")
 
-window.configure(bg='blue')
-
-# style configuration
-style = ttk.Style(window)
-style.configure('TLabel', background='blue', foreground='white')
-style.configure('TFrame', background='blue')
-
 frame = ttk.Frame(window)
-# frame.grid(column=0, row=0)
 
-# background_image = tk.PhotoImage(file="./fff.png")
-# background_label = tk.Label(window, image=background_image)
-# background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
 canvas1 = tk.Canvas(window, width=700, height=300)
 canvas1.pack()
