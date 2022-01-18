@@ -41,15 +41,13 @@ canvas1.create_window(350, 25, window=label)
 def get_joke():
     
     joke_data= requests.get(url, headers=headers).json()
-    #clean_data = json.load(weather_data)
+
     
     joke = joke_data['joke']
 
     label3 = tk.Label(window, text= f'{joke}.',font=('helvetica', 11))
     canvas1.create_window(350, 230, window=label3)
-    #break
-# label4 = tk.Label(window, text= weather_data,font=('helvetica', 10, 'bold'))
-# canvas1.create_window(200, 230, window=label4)
+
 
 
 button = tk.Button(text='Hit me!', command=get_joke)
