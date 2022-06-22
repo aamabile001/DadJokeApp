@@ -1,6 +1,6 @@
 # DadJokeApp
 
-[Download](https://github.com/aamabile001/DadJokeApp/blob/main/DadJokeApp.exe) my amazing weather app for Windows. It only works for Windows operating systems.
+[Download](https://github.com/aamabile001/DadJokeApp/blob/main/DadJokeApp.exe) my amazing dad joke app for Windows. It only works for Windows operating systems.
 
 Check out the [code](https://github.com/aamabile001/DadJokeApp/blob/main/DadJokeApp.py) for the program.
 
